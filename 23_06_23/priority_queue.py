@@ -1,0 +1,15 @@
+student_grade=[]
+student_grade.append((1,"Nobitha"))
+student_grade.append((3,"Shizuka"))
+student_grade.sort(reverse=True)
+print(student_grade)
+student_grade.append((2,"Doremon"))
+student_grade.sort(reverse=True)
+student_grade.append((4,"Jeon"))
+student_grade.sort(reverse=True)
+student_grade.append((5,"Sunio"))
+student_grade.sort(reverse=True)
+print(student_grade)
+print("Priority Queue is: ",end=' ')
+while student_grade:
+    print(student_grade.pop(),end=' ')
